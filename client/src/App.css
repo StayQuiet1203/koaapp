@@ -1,0 +1,44 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app-header {
+  background-color: #2c3e50;
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.app-main {
+  flex: 1;
+  padding: 2rem 0;
+}
+
+.app-footer {
+  background-color: #f1f1f1;
+  padding: 1rem 0;
+  text-align: center;
+  border-top: 1px solid #ddd;
+}
+
+.upload-section {
+  background-color: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.upload-section h2 {
+  margin-bottom: 1rem;
+  color: #2c3e50;
+}
+
+.upload-section p {
+  margin-bottom: 1.5rem;
+  color: #666;
+} 
